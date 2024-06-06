@@ -1,0 +1,148 @@
+*{
+    font-family: cursive;
+}
+
+.judul {
+    font-weight: bold;
+    color: green;
+}
+
+.link-route {
+    text-decoration: none;
+}
+
+.jedaatas {
+    margin-top: 1%;
+}
+
+.jedabawah {
+    margin-bottom: 1%;
+}
+
+.jedabawahdikit {
+    margin-bottom: 0.5%;
+}
+
+.kotak {
+    margin-bottom: 20px;
+    line-height: 1.42857143;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+    padding:5px;
+}
+
+.analisis{
+    margin-bottom: 0.5%;
+    font-size: small;
+}
+
+button {
+    margin-right: 4%;
+    border-radius: 20px;
+    box-shadow: 5px 5px #888888;
+    transition: 0.3s;
+}
+button:hover{
+    background-color: #3e8e41;
+    color: white;
+}
+
+.btnhome{
+    margin:10% 2% 10% 0;
+}
+.btnhome a{
+    text-decoration: none;
+    color:#fff;
+    padding: 13px 35px;
+    background-color: black;
+    font-weight: bolder;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+
+.btnhome a:hover{
+    color:black;
+    background-color: #fff;
+}
+#home {
+    text-align: center;
+    background-image: url('https://png.pngtree.com/background/20210709/original/pngtree-food-menu-fare-meal-background-picture-image_869492.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+#home h2{
+    color: #fff;
+    font-weight: bolder;
+    letter-spacing: 1px;
+}
+#home p{
+    width: 50%;
+    line-height: 25px;
+}
+#home a{
+    text-decoration: none;
+    color:#fff;
+    padding: 13px 35px;
+    background-color: black;
+    font-weight: bolder;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+
+#home a:hover{
+    color:black;
+    background-color: #fff;
+}
+
+#feature {
+    background-image: url('https://img.freepik.com/free-photo/spanish-manchego-cheese-with-dried-bay-leaves-walnut-old-wooden-surface_23-2148101627.jpg?size=626&ext=jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:white;
+    width: 100%;
+    padding: 10px;
+    font-weight:900;
+    text-align: center;
+    letter-spacing: 1px;
+    margin-bottom: 4%;
+}
+
+.subjudul a{
+    text-decoration: none;
+    color:#fff;
+    padding: 13px 35px;
+    background-color: black;
+    font-weight: bolder;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+
+#subjudul a:hover{
+    color:black;
+    background-color: #fff;
+}
+#last a{
+    text-decoration: none;
+    color:#fff;
+    padding: 13px 35px;
+    background-color: grey;
+    font-weight: bolder;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+
+#last a:hover{
+    color:black;
+    background-color: yellow;
+}
+
